@@ -66,7 +66,7 @@ Used Media Query to properly specify the dimension/view for mobile for a more re
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I intend to further understand when to use flexbox for the body or the main content and also to be able to fully take control of the background-image to great gradients
 
 ## Author
 
