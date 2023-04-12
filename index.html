@@ -22,7 +22,6 @@
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
-      @import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap");
       * {
         box-sizing: border-box;
         padding: 0;
@@ -61,12 +60,17 @@
         width: 50%;
       }
 
-      div.result p span {
+      #seventysix {
         font-size: 55px;
         font-weight: bold;
         color: white;
         text-align: center;
       }
+
+      #of100 {
+        color: rgb(197, 195, 195);
+      }
+
       div.result h1 {
         color: rgb(197, 195, 195);
         font-size: 18px;
@@ -74,6 +78,7 @@
       }
       div.result button {
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         background-color: hsla(241, 72%, 46%, 0);
@@ -252,7 +257,8 @@
         </div>
         <div>
           <button>
-            <p><span>76</span> <br />of 100</p>
+            <span id="seventysix">76</span>
+            <span id="of100"> of 100 </span>
           </button>
         </div>
         <div>
