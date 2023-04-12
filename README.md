@@ -43,18 +43,25 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
+Used spans to target specific areas of paragraphs and headings
+Used Media Query to properly specify the dimension/view for mobile for a more responsive layout
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<div class="visual">
+  <img src="./assets/images/icon-visual.svg" alt="alt" />Visual
+  <span id="percentage"> 72 <span id="hundred"> / 100 </span></span>
+</div>
 ```
 
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
+      @media (max-width: 600px) {
+        main {
+          flex-direction: column;
+          padding: 0;
+          margin: 0;
+          width: 100%;
+          margin-top: -20px;
+        }
 ```
 
 ### Continued development
